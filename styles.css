@@ -1,0 +1,33 @@
+.body-index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #585858;
+    height: 80vh;
+    width: 100%;
+}
+.div1-index{
+    width: 45%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #979797bd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.titulo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 40px;
+
+}
+.form-label{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}

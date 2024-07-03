@@ -1,0 +1,18 @@
+Versión de PHP: 8.2.12
+Version mySQL: 5.2.1
+Versión del servidor: 10.4.32-MariaDB 
+Versión del protocolo: 10
+
+Paso 1: Se debe iniciar un servidor localhost, en mi caso utilice XAMPP, iniciando Apache y mySQL.
+
+Paso 2: En XAMPP se puede hacer click en el boton de mySQL llamado Admin, este abrira su navegador predeterminado con la pagina PHPmyAdmin.
+
+Paso 3: Importar archivo de base de datos.
+
+Paso 4: Revisar si se cuenta con un usuario root, sin contraseña, en caso de que no tener uno, crearlo con permisos globales.
+
+Paso 5: Mover carpeta de proyecto adentro de carpeta de servidor local en mi caso es: C:\xampp\htdocs 
+
+Paso 6: En un navegador abra la siguiente url: http://localhost/Diego_Vasquez_M_PHP/index.php 
+
+Con esto ya podra ver el formulario y rellenarlo a gusto.
