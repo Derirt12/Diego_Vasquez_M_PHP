@@ -8,7 +8,7 @@
     <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <title>Votacion</title>
-    <link rel="stylesheet" href="styles.css?<?php echo time(); ?>">
+    <link rel="stylesheet" href="../CSS/styles.css?<?php echo time(); ?>">
 </head>
 <body class="body-index">
     <?php 
@@ -115,8 +115,7 @@
             </select>
             <br>
             <br>
-            <labe
-            l class="form-label" for="comuna">Comuna:</label>
+            <label class="form-label" for="comuna">Comuna:</label>
             <select name="comuna" id="comuna" required>
             </select>
             <br>
@@ -152,6 +151,6 @@
         </form>
     </div>
 
-    <script type="text/javascript" src="main.js?<?php echo time(); ?>"></script>
+    <script type="text/javascript" src="../JS/main.js?<?php echo time(); ?>"></script>
 </body>
 </html>
