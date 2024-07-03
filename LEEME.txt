@@ -7,7 +7,7 @@ Paso 1: Se debe iniciar un servidor localhost, en mi caso utilice XAMPP, inician
 
 Paso 2: En XAMPP se puede hacer click en el boton de mySQL llamado Admin, este abrira su navegador predeterminado con la pagina PHPmyAdmin.
 
-Paso 3: Importar archivo de base de datos.
+Paso 3: Crear Base de Datos "votaciones", importar archivo de base de datos "votaciones.sql".
 
 Paso 4: Revisar si se cuenta con un usuario root, sin contraseña, en caso de que no tener uno, crearlo con permisos globales.
 
