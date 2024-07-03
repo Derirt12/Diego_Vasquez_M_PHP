@@ -90,18 +90,22 @@
             <input type="text" name="nombre" id="nombre" required>
             <br>
             <br>
+            
             <label class="form-label" for="alias">Alias:</label>
             <input type="text" name="alias" id="alias" placeholder="Al menos una letra y un número." required minlenght="5" pattern="(?=.*[a-zA-Z])(?=.*[0-9]).+">
             <br>
             <br>
+
             <label class="form-label" for="rut">Rut:</label>
             <input type="text" name="rut" id="rut" placeholder="11111111-1" required pattern= "^\d{7,8}-[0-9kK]">
             <br>
             <br>
+
             <label class="form-label" for="email">Email:</label>
             <input type="text" name="email" id="email" placeholder="hola@mundo.com" required pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{2,5}">
             <br>
             <br>
+
             <label class="form-label" for="region">Región:</label>
             <select name="region" id="region" required>
                 <option value="" disabled selected>Seleccione una región</option>
@@ -111,11 +115,13 @@
             </select>
             <br>
             <br>
-            <label class="form-label" for="comuna">Comuna:</label>
+            <labe
+            l class="form-label" for="comuna">Comuna:</label>
             <select name="comuna" id="comuna" required>
             </select>
             <br>
             <br>
+
             <label class="form-label" for="candidato">Candidato:</label>
             <select name="candidato" id="candidato" required>
                 <?php foreach($arrayCandidatos as $row){
@@ -124,6 +130,7 @@
             </select>
             <br>
             <br>
+
             <label class="form-label">Como se entero de nosotros:</label>
 
                 <input class="form-label-check" type="checkbox" name="check-web" value="web">
