@@ -27,7 +27,14 @@
 
 }
 .form-label{
+    display: inline-block;
+    width: 40%;
     font-size: 20px;
     font-weight: bold;
     color: #fff;
+}
+.form-label-check{
+    color: #fff;
+    font-size: 18px;
+    display: inline-block;
 }
