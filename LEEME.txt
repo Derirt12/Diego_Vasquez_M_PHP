@@ -11,8 +11,8 @@ Paso 3: Crear Base de Datos "votaciones", importar archivo de base de datos "vot
 
 Paso 4: Revisar si se cuenta con un usuario root, sin contraseña, en caso de que no tener uno, crearlo con permisos globales.
 
-Paso 5: Mover carpeta de proyecto adentro de carpeta de servidor local en mi caso es: C:\xampp\htdocs 
+Paso 5: Mover carpeta de proyecto "Diego_Vasquez_M_PHP" adentro de carpeta de servidor local en mi caso es: C:\xampp\htdocs 
 
-Paso 6: En un navegador abra la siguiente url: http://localhost/Diego_Vasquez_M_PHP/index.php 
+Paso 6: En un navegador abra la siguiente url: http://localhost/Diego_Vasquez_M_PHP/PHP/index.php 
 
 Con esto ya podra ver el formulario y rellenarlo a gusto.

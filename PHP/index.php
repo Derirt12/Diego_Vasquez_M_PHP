@@ -67,7 +67,7 @@
     <?php
         //abre conexion y obtiene las regiones y candidatos para mostrar en el formulario.
         include 'database.php';
-        $selectRegionesQuery = mysqli_query($conn, 'SELECT * FROM region');
+        $selectRegionesQuery = mysqli_query($conn, 'SELECT * FROM regiones');
         $selectCandidatoQuery = mysqli_query($conn, 'SELECT * FROM candidatos');
 
         $arrayRegiones = array();
@@ -110,7 +110,7 @@
             <select name="region" id="region" required>
                 <option value="" disabled selected>Seleccione una región</option>
                 <?php foreach($arrayRegiones as $row){
-                    echo '<option value=' . $row['Region'] . '>' . $row['Region'] . '</option>';
+                    echo '<option value=' . $row['id'] . '>' . $row['region'] . '</option>';
                 } ?>
             </select>
             <br>
